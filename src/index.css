@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(27, 172, 172);
+  box-sizing: border-box;
+}
+.mainBox {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.contentBox {
+  display: inline-flex;
+  flex-direction: row;
+  width: 80%;
+  text-align: left;
+  margin: auto;
+}
+.cardBox {
+  background-color: white;
+  width: 50%;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.cardBox ul {
+  list-style: none;
+}
+.cardBox ul li {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px 0;
+}
+.cardBox ul li p {
+  width: 70%;
+}
+.cardBox ul li button {
+  background-color: rgb(101, 159, 224);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
